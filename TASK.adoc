@@ -1,0 +1,36 @@
+= Interview task
+
+== Description
+Build a service that will provide us with basic functionality to manage web page comments.
+
+== Instructions
+* Create a simple webpage (e.g., page.html) with a minimal UI design that will:
+** List all available comments
+** Have an input field to add a new comment
+* Create the backend endpoints to facilitate the need for the above page
+* Adding a comment must be an asynchronous operation
+* The application should store the comments in a database
+* The application should push the comments to the client’s browser and displayed in a UI
+* The system must be composed of two or more microservices communicating over a
+messaging system
+* Design an event-driven and scalable architecture. Services need to have clear
+responsibilities and well-defined contracts.
+* The services should be written in Java using the Spring Boot framework
+* The services should have the necessary testing coverage
+
+== Deliverables
+* Push the project's source code and its documentation to the git repository provided.
+* Documentation must include detailed information on how to deploy and run the
+project.
+
+== Notes
+* The exercise will be evaluated mainly based on:
+** Design patterns used
+** Test strategies used (consider adding integration test or automated end-to-end test
+or propose a manual test flow)
+** Test coverage and good development practices used
+** Understanding and usage of messaging systems
+* UI is not the main objective of this task. You can use any technology and make it simple, but it must be functional enough.
+* Push the code to the repository After completing a component or milestone to avoid one big bang.
+* Do not worry if you haven’t completed all the task parts. We have all been here before.
+* Reach out to us if you have any questions.
